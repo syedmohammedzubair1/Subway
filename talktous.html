@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway/feedback</title>
+</head>
+<body style="background-color: #f6f6f6;">
+    <header>
+        <nav class="navbar navbar-expand-lg px-5 mx-5 ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="assets/subway-logo.e7b602efa8e0c7316077.webp" alt="No image"width="100"height="50"></a>
+
+             
+            </div>
+          </nav>
+    </header>
+   <div class="container p-5 mainfrm shadow"style="width: 50%;">
+     <form action="" onsubmit="return validate()" class="container px-5">
+      <h5 style="color:#008000;font-weight: 700;">Talk to Us !</h5>
+      <label for=""class="form-label"style="font-weight:500">Please share with us the below details:</label>
+      <p id="mobileError"></p>
+        <input type="tel" name="" id="mobile"placeholder="Mobile Number"class="form-control mb-3">
+        <p id="nameError"></p>
+        <input type="text" name="" id="name"placeholder="Enter Name"class="form-control mb-3">
+        <p id="emailError"></p>
+        <input type="text" name="" id="email"placeholder="Enter Email"class="form-control mb-3">
+      <label for=""class="form-label"style="font-weight:500">Do you have your last Order Details: </label><br>
+      <input type="radio" name="Common" id="yes"><label for="form-label">Yes</label><br>
+      <input type="radio" name="Common" id="no"><label for="">No</label> <br> 
+      <label for=""class="form-label mt-3"style="font-weight:500">Attachment, if any</label>
+      <input type="file" name="" id="" class="form-control mb-3 "style="width: 100% !important;">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault"style="font-weight:500">
+          I agree to receive communication on newsletters, promotional content, offers and events through SMS, RCS, WhatsApp. 
+        </label>
+      </div>
+      <button
+        type="submit"
+        class="btn btn-success mt-5 sbmtbtn"
+        style="width:150px;
+               border-radius: 50px;
+               background-color: #009947;"
+      >
+        Submit
+      </button>
+      
+    </form>
+   </div>
+   <script src="validate.js"></script>
+   <footer class="container-fluid p-5" style="text-align: left;font-weight: bolder !important;">
+    
+      <p class="mb-3">Registered Address: Eversub India Private Limited, 6th Floor, Vaman Centre, Makwana Road Marol, Andheri East, Mumbai-400059, Maharashtra</p>
+      <p class="mb-3"> All rights reserved. SUBWAY® is a Registered Trademark of Subway IP LLC. ©2022 Subway IP LLC., and is licensed to Eversub India Private Limited under an exclusive master franchisee arrangement for the territory of the Republic of India.</p>
+    </footer>
+    
+</body>
+</html>

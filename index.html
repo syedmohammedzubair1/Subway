@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar  navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="assets/subway-logo.e7b602efa8e0c7316077.webp" alt="No image"width="100"height="50"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: end;">
+                <ul class="navbar-nav px-5 mx-5">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#" style="border-bottom: 3px solid rgb(243, 243, 25);">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="menu.html">MENU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="storelocator.html">STORE LOCATOR</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-bg-success" href="talktous.html"style="background-color:#008000 !important">TALK TO US</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="container-fluid hero">
+       <div class="container p-5">
+          <img src="assets/download.webp" alt="No Image" width="400"height="286">
+        </div>
+        <div class=" container text-light ps-5">
+          <h5 style="margin-bottom: 40px;">Order Now On</h5>
+          <div class="flex">
+          <a href="https://www.swiggy.com/city/hyderabad/subway-mantra-mall-rambagh-colony-rest23320"><img src="assets/swiggy.720f8f764788f0988289.webp" alt="no image" width="150"height="36"></a>
+          <a href="https://www.zomato.com/hyderabad/subway-mehdipatnam"><img src="assets/zomato.4e0f3920926bf9e420d5.webp" alt="no image" width="150"height="36"></a>
+      </div> </div>
+    </section>
+    <section class="video">
+      <div>
+      <video src="assets/videoplayback.mp4" controls></video>
+    </div>
+    </section>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <h1 class="modal-title fs-5" id="exampleModalLabel" style="width: 100%;text-align: center;font-size:x-large !important;">Opt-out</h1>
+        <form action="">
+          <div class="form-floating mb-3">
+           <input type="tel"placeholder="Enter Name" class="form-control">
+           <label class="form-label">Number</label>
+          </div>
+          <div class="form-floating mb-3">
+           <input type="text"placeholder=""class="form-control">
+           <label class="form-label">Name*</label>
+          </div>
+            <select name="" id=""class="form-select mb-3">
+             <option value=""hidden>Reasons*</option>
+             <option value="">Do Not Wish To Receive Any Information</option>
+             <option value="">Irrelevant SMS Content</option>
+             <option value="">Not Interested</option>
+             <option value="">Lack of Value</option>
+             <option value="">Other</option>
+            </select>
+            <textarea name="" id=""class="form-control"placeholder="Remarks"></textarea>
+            <div style="display: flex;width: 100%;justify-content:end;">
+            <button type="submit" class="form-control btn btn-success mt-5 w-25"style="justify-content:end;">Get OTP</button>
+          </div> </div>
+           </div>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="container-fluid p-5">
+  <div class="row">
+    <div class="col-lg-2 container-fluid  col-sm-12 ">
+      <h5 class="text-warning">Costumer Care</h5>
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtsNPfRsQRqpmVRHwhxNmQrsPjjdNGLvhHNTDpnTpgKBBLPVnCCqJMCnZjhxpqGDwkWzZV" style="text-decoration: none;color: inherit;">costumercare@subway.in</a>
+    </div>
+    <div class="col-lg-2 container-fluid  col-sm-12 ">
+      <h5 class="text-warning">Contact</h5>
+      <p>Costumer Care</p>
+      <p><a href="talktous.html" style="text-decoration: none;color: inherit;">Feedback</a></p>
+      <p><a data-bs-toggle="modal" href="#exampleModal"style="text-decoration:none;color:inherit">
+        Opt-out
+      </a></p>
+    </div>
+    <div class="col-lg-2 container-fluid  col-sm-12 ">
+      <h5 class="text-warning">Subway Cares</h5>
+      <p><a href="https://qnet.blob.core.windows.net/central/Nutritional%20%2B%20Allergen%20Chart-%20Version%202.44%20August%202024%20-%201724503085038.pdf"style="text-decoration:none;color:inherit;">Nutrition Information</a></p>
+    </div>
+    <div class="col-lg-2 container-fluid   col-sm-12 vv">
+      <h5 class="text-warning">Legal</h5>
+      <a href="https://costumercare@subway.in/privacy-policy"><p>Privacy Policy</p></a>
+      <a href="https://costumercare@subway.in/terms-and-conditions"><p>Terms & conditions</p></a>
+    </div>
+    <div class="col-lg-2 container-fluid  col-sm-12 ">
+      <h5>For vendor Partnership</h5>
+      <p class="text-warning">partner@subway.in</p>
+    </div>
+  </div>
+    <hr>
+    <p>Registered Address: Eversub India Private Limited, 6th Floor, Vaman Centre, Makwana Road Marol, Andheri East, Mumbai-400059, Maharashtra</p>
+    <p> All rights reserved. SUBWAY® is a Registered Trademark of Subway IP LLC. ©2022 Subway IP LLC., and is licensed to Eversub India Private Limited under an exclusive master franchisee arrangement for the territory of the Republic of India.</p>
+  </footer>
+</body>
+</html>

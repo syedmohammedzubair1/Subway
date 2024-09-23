@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+.vv a{
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    background-color: white;
+}
+.hero{
+    width: 100%;
+    height: 120vh;
+    background-color: blueviolet;
+    background-image: url("assets/bgimg1.webp");
+    background-size: cover;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.blublu{
+    font-weight: 700;
+}
+
+.video{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.video video{
+    border-radius: 20px;
+}
+.flex img{
+    margin-bottom: 15px;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+        color: white;
+        height: auto;
+        background-color: #008938;
+    }
+    footer .row{
+        width: 100%;
+    }
+    footer p{
+        margin-bottom: 0px;
+        font-size: smaller;
+    }
+    .abthero p{
+        font-size: large;
+        font-weight: bold;
+    }
+    .newmenu1{
+        width: 100%;
+        height:auto;
+        background-color: green;
+        background-image: url("assets/menubg.webp");
+        background-position: center;
+        background-size: cover;
+    }
+    .newmenu2{
+        width: 100%;
+        height:auto;
+        background-color: inherit;
+    }
+    .storeburger{
+        width: 100%;
+        text-align: center;
+    }
+
+@media (max-width:768px) {
+    .video{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .video video{
+        padding-left:30px;
+        width: 90%;
+        border-radius: 0px 0px 0px;       
+    }
+    .hero .container img{
+            width: 150px;
+            height: auto;
+    }
+   .newmenu1 .title img{
+    width: 100%;
+   }
+   .brgr .pe-0 img{
+    display: none;
+   }
+   .fire img{
+    display: none;
+   }
+   .fire h3{
+    display: none;
+   }
+   .guc{
+    display: block !important;
+   }
+   .mainfrm{
+    width: 100% !important;
+    font-size: smaller;
+   }
+   .frm{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+    .frm input{
+        width: 100%;
+        margin: 5px 0px;
+    } 
+    .frm button{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+.card{
+    background-color: transparent !important;
+}
+.newmenu3{
+    width: 100%;
+    height: auto;
+}
+.frm{
+    display: flex;
+    justify-content: space-between;
+}
+.sbmtbtn:hover{
+    color: black !important;
+    font-weight: 500;
+}
